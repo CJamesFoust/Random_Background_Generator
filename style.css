@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    flex-direction: column;
+}
+
+.btn {
+    min-height: 50px;
+    min-width: 150px;
+    border: 5px solid black;
+    border-radius: 5%;
+    margin-top: 100px;
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.nav-header {
+    min-height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-bottom: 5px solid black;
+}
+
+.hex {
+    font-size: 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 5%;
+}
